@@ -9,4 +9,7 @@
  */
 
 rootProject.name = "gradle-demo"
-include("lib", "app")
+include(
+    "lib",
+    "app"
+)

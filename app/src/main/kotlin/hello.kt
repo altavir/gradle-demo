@@ -1,5 +1,5 @@
-fun main() {
-    val version = object{}.javaClass.getResourceAsStream("version").readAllBytes().decodeToString()
+import gradle.demo.gradleDemoVersion
 
-    println("Hello MIPT! Version $version")
+fun main() {
+    println("Hello MIPT! Version $gradleDemoVersion")
 }
